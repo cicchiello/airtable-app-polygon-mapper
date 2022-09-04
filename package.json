@@ -1,0 +1,57 @@
+{
+  "name": "airtable-app-polygon-mapper",
+  "version": "1.0.0",
+  "description": "Mapbox GL for Airtable",
+  "url": "https://github.com/deytah/airtable-app-polygon-mapper",
+  "author": {
+    "name": "Deytah",
+    "email": "support@deytah.io",
+    "url": "https://deytah.io/"
+  },
+  "contributors": [
+    {
+      "name": "Melanie E Magdalena",
+      "url": "https://github.com/m2creates"
+    },
+    {
+      "name": "Leo Lutz",
+      "url": "https://github.com/skeemer"
+    }
+  ],
+  "license": "See LICENSE.md",
+  "repository": "https://github.com/deytah/airtable-app-polygon-mapper",
+  "bugs": "https://github.com/deytah/airtable-app-polygon-mapper/issues",
+  "dependencies": {
+    "@airtable/blocks": "1.2.0",
+    "@mapbox/mapbox-gl-draw": "github:deytah/mapbox-gl-draw",
+    "d3": "^6.3.1",
+    "geojson-bounds": "^1.0.2",
+    "mapbox-gl": "^2.0.0",
+    "mapbox-print-pdf": "github:vinayakkulkarni/mapbox-print-pdf",
+    "polylabel": "^1.1.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^2.5.1"
+  },
+  "scripts": {
+    "lint": "eslint frontend",
+    "start": "react-scripts start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
